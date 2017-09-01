@@ -2,7 +2,7 @@ body{
     background-color: black;
     color:white;
 }
-header, main, nav, footer{
+header, main, nav, footer, table, #content {
     text-align: center;
 }
 nav a{
@@ -61,4 +61,9 @@ ul{
 }
 .hobby{
     color:yellow;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
 }
