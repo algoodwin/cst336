@@ -1,0 +1,104 @@
+html{
+    background-color: #96949B
+}
+
+h1{
+   
+ color:#0D5C63;
+ font-size:70px;
+ font-family: 'Lobster Two', cursive;
+}
+h2{
+    font-size:45px;
+    font-family: 'Lato', sans-serif;
+}
+h3{
+    font-size:35px;
+    font-family: 'Lato', sans-serif;
+}
+table{
+    padding:15px;
+    padding-bottom: 4px;
+    padding-right:100px;
+   
+
+}
+
+th{
+    font-size:35px;
+    text-align:left;
+        color:#594157;
+        font-family: 'Lobster Two', cursive;
+}
+
+td, p{
+    font-size:25px;
+    color:#261024;
+    font-family: 'Lato', sans-serif;
+}
+#top{
+    text-align:center;
+    color:#0D5C63;
+    font-size: 100px;
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+
+ #b, #l, #s, #q{
+    text-align:center;
+    font-size: 25pt;
+    color:#594157;
+    font-family: 'Lobster Two', cursive;
+}
+#text{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+figure{
+    text-align: center;
+}
+ 
+#comp{
+    text-align:center;
+    font-family: 'Lobster Two', cursive;
+}
+
+
+nav a{
+    /*links within the nav container*/
+    display:inline-block;
+    padding:15px;
+    padding-bottom: 4px;
+    font-size:2.5em;
+    text-decoration: none;
+    color:white;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+href{
+    target:"_blank";
+}
+
+button{
+    padding:50px;
+    font-size:2em;
+    text-align: center;
+
+}
+#mainpic{
+    opacity:0.5;
+}
+
+img{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+img:hover{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
