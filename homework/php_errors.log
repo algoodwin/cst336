@@ -1,0 +1,6 @@
+[19-Sep-2017 04:35:28 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php on line 7
+[19-Sep-2017 04:44:08 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php on line 12
+[19-Sep-2017 04:52:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php on line 26
+[19-Sep-2017 06:40:34 UTC] PHP Fatal error:  Cannot redeclare funFact() (previously declared in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php:5) in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php on line 575
+[19-Sep-2017 06:40:40 UTC] PHP Fatal error:  Cannot redeclare funFact() (previously declared in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php:5) in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php on line 575
+[20-Sep-2017 04:29:32 UTC] PHP Parse error:  syntax error, unexpected 'shuffle' (T_STRING) in /home/ubuntu/workspace/cst336/homework/homework2/homework2.php on line 430

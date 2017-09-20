@@ -1,0 +1,45 @@
+body{
+ 
+    background-color: #DDF0FF;
+}
+
+h1{
+    text-align: center;
+    font-size:50px;
+    color:#C33C54;
+}
+
+#info{
+    font-size: 15px;
+    top:40%;
+    color:#4C4C9D;
+    padding-left: 100px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.states{
+    font-size:25px;
+    padding-left: 75px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+img{
+    padding-left: 10px;
+    
+}
+
+#map{
+    padding-left: 400px;
+    
+    
+}
+
+#facts{
+
+    font-size: 20px;
+    top:40%;
+    color:#2A324B;
+    text-align:center;
+    font-family: Tahoma, Geneva, sans-serif;
+    
+}
