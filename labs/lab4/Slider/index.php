@@ -56,7 +56,7 @@
     <body>
         <br>
         
-        <
+        
          <form>
             <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
             <div id= "box">
@@ -85,11 +85,18 @@
         
        
             <input type="submit" value="Search"/>
+            
+              <?php
+            if(!isset($imageURLs)) {
+                echo "<h2>Type a keyword to display a slideshow with random images from Pixabay.com</h2>";
+            } else {
+                
+        ?>
              <?php
           
                 if (empty($_GET['keyword'])  && empty($_GET['category'])  ) {
                     
-                                echo "<h2 style='color:red'> Error! You must enter a keyword or category </h2>";
+                                echo "<h2 style='color:red'>  You must enter a keyword or category </h2>";
                                 return;
                                 exit;
                     
@@ -100,12 +107,7 @@
         
         <br /><br />
         
-        <?php
-            if(!isset($imageURLs)) {
-                echo "<h2>Type a keyword to display a slideshow with random images from Pixabay.com</h2>";
-            } else {
-                
-        ?>
+      
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
