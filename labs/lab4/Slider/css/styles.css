@@ -2,7 +2,7 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:black;
     }
     
     input {
@@ -13,4 +13,8 @@
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
+    }
+    
+    #box{
+        background-color: grey;
     }
