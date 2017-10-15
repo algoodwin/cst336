@@ -20,3 +20,43 @@
 [13-Sep-2017 19:43:30 UTC] PHP Stack trace:
 [13-Sep-2017 19:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/php_arrays.php:0
 [13-Sep-2017 19:43:30 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/practice/php_arrays.php:54
+[11-Oct-2017 19:48:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 19:50:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 20:06:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 20:06:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 20:08:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 20:22:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 20:22:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/practice/sql_joins.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/sql_joins.php(6): PDO->__construct('mysql:host=loca...', 'root', ' ')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 6
+[11-Oct-2017 20:26:56 UTC] PHP Fatal error:  Cannot redeclare getUsersAndDepartments() (previously declared in /home/ubuntu/workspace/cst336/practice/sql_joins.php:9) in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 40
+[11-Oct-2017 20:27:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/practice/sql_joins.php on line 42
+[11-Oct-2017 20:27:31 UTC] PHP Stack trace:
+[11-Oct-2017 20:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/sql_joins.php:0
+[11-Oct-2017 20:27:31 UTC] PHP   2. usersWhoCheckedOutTablets() /home/ubuntu/workspace/cst336/practice/sql_joins.php:66
