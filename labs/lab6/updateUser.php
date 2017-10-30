@@ -40,12 +40,23 @@ if(isset($_GET['updateUserForm']))
 {
         $sql = "UPDATE tc_user
             SET firstName = :fName,
-            lastName = :lName
+            lastName = :lName,
+            deptName = :deptName,
+            gender = :gender,
+            role = :role,
+            deptId = :deptId
 		    WHERE userId = :userId";
 	$namedParameters = array();
 	$namedParameters[":fName"] = $_GET['firstName'];
 	$namedParameters[":lName"] = $_GET['lastName'];
 	$namedParameters[":userId"] = $_GET['userId'];
+    $namedParameters[":gender"] = $_GET['gender'];
+    $namedParameters[":role"] = $_GET['role'];
+    $namedParameters[":deptId"] = $_GET['deptId'];
+
+    
+
+
     $stmt = $conn->prepare($sql);
     $stmt->execute($namedParameters);
 }
