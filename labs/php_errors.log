@@ -193,3 +193,77 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(134): displayDevices()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 86
+[18-Oct-2017 19:54:14 UTC] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 7
+[18-Oct-2017 19:54:14 UTC] PHP Stack trace:
+[18-Oct-2017 19:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:0
+[18-Oct-2017 20:11:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 6
+[18-Oct-2017 20:11:36 UTC] PHP Stack trace:
+[18-Oct-2017 20:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[18-Oct-2017 20:11:36 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:24
+[18-Oct-2017 20:13:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 13
+[18-Oct-2017 20:13:21 UTC] PHP Stack trace:
+[18-Oct-2017 20:13:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:0
+[18-Oct-2017 20:13:21 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336/labs/lab6/admin.php:33
+[25-Oct-2017 19:47:59 UTC] PHP Fatal error:  Call to undefined function getDepartmentInfo() in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php on line 34
+[25-Oct-2017 19:47:59 UTC] PHP Stack trace:
+[25-Oct-2017 19:47:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addUser.php:0
+[25-Oct-2017 20:07:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php on line 44
+[25-Oct-2017 20:07:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addUser.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php on line 40
+[25-Oct-2017 20:08:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addUser.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php on line 40
+[25-Oct-2017 20:08:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addUser.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php on line 40
+[25-Oct-2017 20:08:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addUser.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addUser.php on line 40
+[25-Oct-2017 20:38:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 66
+[25-Oct-2017 20:38:23 UTC] PHP Stack trace:
+[25-Oct-2017 20:38:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0
+[25-Oct-2017 20:38:23 UTC] PHP   2. getUserInfo() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:81
+[25-Oct-2017 20:39:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 66
+[25-Oct-2017 20:39:13 UTC] PHP Stack trace:
+[25-Oct-2017 20:39:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0
+[25-Oct-2017 20:39:13 UTC] PHP   2. getUserInfo() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:81
+[25-Oct-2017 20:39:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 66
+[25-Oct-2017 20:39:15 UTC] PHP Stack trace:
+[25-Oct-2017 20:39:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0
+[25-Oct-2017 20:39:15 UTC] PHP   2. getUserInfo() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:81
+[25-Oct-2017 20:39:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 66
+[25-Oct-2017 20:39:33 UTC] PHP Stack trace:
+[25-Oct-2017 20:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0
+[25-Oct-2017 20:39:33 UTC] PHP   2. getUserInfo() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:81
+[25-Oct-2017 20:41:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 66
+[25-Oct-2017 20:41:02 UTC] PHP Stack trace:
+[25-Oct-2017 20:41:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0
+[25-Oct-2017 20:41:02 UTC] PHP   2. getUserInfo() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:82
+[25-Oct-2017 20:41:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 71
+[25-Oct-2017 20:41:15 UTC] PHP Stack trace:
+[25-Oct-2017 20:41:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0
+[25-Oct-2017 20:41:15 UTC] PHP   2. getUserInfo() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:82
+[27-Oct-2017 19:46:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 70
+[27-Oct-2017 19:46:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/lab6/admin.php on line 70
+[27-Oct-2017 20:33:31 UTC] PHP Fatal error:  Call to undefined function sessionstart() in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 1
+[27-Oct-2017 20:33:31 UTC] PHP Stack trace:
+[27-Oct-2017 20:33:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/index.php:0
+[30-Oct-2017 01:48:49 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 105
+[30-Oct-2017 02:07:27 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 104
+[30-Oct-2017 02:12:16 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 104
+[30-Oct-2017 02:12:17 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 104
+[30-Oct-2017 02:53:17 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 104
+[30-Oct-2017 02:53:43 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 104
+[30-Oct-2017 02:53:48 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 104
+[30-Oct-2017 03:06:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php on line 103
+[30-Oct-2017 03:06:06 UTC] PHP Stack trace:
+[30-Oct-2017 03:06:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateUser.php:0

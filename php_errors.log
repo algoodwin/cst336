@@ -60,3 +60,196 @@ Stack trace:
 [11-Oct-2017 20:27:31 UTC] PHP Stack trace:
 [11-Oct-2017 20:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/sql_joins.php:0
 [11-Oct-2017 20:27:31 UTC] PHP   2. usersWhoCheckedOutTablets() /home/ubuntu/workspace/cst336/practice/sql_joins.php:66
+[16-Oct-2017 17:31:33 UTC] PHP Fatal error:  Call to undefined function populationBetween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 25
+[16-Oct-2017 17:31:33 UTC] PHP Stack trace:
+[16-Oct-2017 17:31:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:31:52 UTC] PHP Fatal error:  Call to undefined function populationBeteween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 25
+[16-Oct-2017 17:31:52 UTC] PHP Stack trace:
+[16-Oct-2017 17:31:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:31:53 UTC] PHP Fatal error:  Call to undefined function populationBeteween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 25
+[16-Oct-2017 17:31:53 UTC] PHP Stack trace:
+[16-Oct-2017 17:31:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:32:18 UTC] PHP Fatal error:  Call to undefined function populationBeteween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 25
+[16-Oct-2017 17:32:18 UTC] PHP Stack trace:
+[16-Oct-2017 17:32:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:34:04 UTC] PHP Fatal error:  Call to undefined function populationBeteween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 31
+[16-Oct-2017 17:34:04 UTC] PHP Stack trace:
+[16-Oct-2017 17:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:34:04 UTC] PHP Fatal error:  Call to undefined function populationBeteween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 31
+[16-Oct-2017 17:34:04 UTC] PHP Stack trace:
+[16-Oct-2017 17:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:45:52 UTC] PHP Fatal error:  Call to undefined function populationBeteween() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 35
+[16-Oct-2017 17:45:52 UTC] PHP Stack trace:
+[16-Oct-2017 17:45:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:46:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 19
+[16-Oct-2017 17:46:38 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 4
+[16-Oct-2017 17:46:38 UTC] PHP Stack trace:
+[16-Oct-2017 17:46:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:46:38 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 4
+[16-Oct-2017 17:46:38 UTC] PHP Stack trace:
+[16-Oct-2017 17:46:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:46:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 6
+[16-Oct-2017 17:46:38 UTC] PHP Stack trace:
+[16-Oct-2017 17:46:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 17:46:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.mp_town' doesn't exist' in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php(35): populationBeteween()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 14
+[16-Oct-2017 18:07:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 28
+[16-Oct-2017 18:07:35 UTC] PHP Stack trace:
+[16-Oct-2017 18:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 18:07:35 UTC] PHP   2. allTowns() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:50
+[16-Oct-2017 18:38:39 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 45
+[16-Oct-2017 18:38:39 UTC] PHP Stack trace:
+[16-Oct-2017 18:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 18:38:39 UTC] PHP   2. populationCounty() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:75
+[16-Oct-2017 18:42:07 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 45
+[16-Oct-2017 18:42:07 UTC] PHP Stack trace:
+[16-Oct-2017 18:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 18:42:07 UTC] PHP   2. populationCounty() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:75
+[16-Oct-2017 18:45:17 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 45
+[16-Oct-2017 18:45:17 UTC] PHP Stack trace:
+[16-Oct-2017 18:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[16-Oct-2017 18:45:17 UTC] PHP   2. populationCounty() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:75
+[20-Oct-2017 03:13:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'MidtermPactice'' in /home/ubuntu/workspace/cst336/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php(6): getDatabaseConnection('MidtermPactice')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/dbConnection.php on line 21
+[20-Oct-2017 03:13:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'MidtermPactice'' in /home/ubuntu/workspace/cst336/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php(6): getDatabaseConnection('MidtermPactice')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/dbConnection.php on line 21
+[20-Oct-2017 03:14:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'MidtermPactice'' in /home/ubuntu/workspace/cst336/dbConnection.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/dbConnection.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php(6): getDatabaseConnection('MidtermPactice')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/dbConnection.php on line 21
+[20-Oct-2017 03:16:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 76
+[20-Oct-2017 03:22:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 94
+[20-Oct-2017 03:26:42 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 56
+[20-Oct-2017 03:26:42 UTC] PHP Stack trace:
+[20-Oct-2017 03:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:26:42 UTC] PHP   2. populationState() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:90
+[20-Oct-2017 03:26:56 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 56
+[20-Oct-2017 03:26:56 UTC] PHP Stack trace:
+[20-Oct-2017 03:26:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:26:56 UTC] PHP   2. populationState() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:90
+[20-Oct-2017 03:35:20 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:35:20 UTC] PHP Stack trace:
+[20-Oct-2017 03:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:35:20 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:112
+[20-Oct-2017 03:35:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:35:32 UTC] PHP Stack trace:
+[20-Oct-2017 03:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:35:32 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:112
+[20-Oct-2017 03:35:38 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:35:38 UTC] PHP Stack trace:
+[20-Oct-2017 03:35:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:35:38 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:112
+[20-Oct-2017 03:35:39 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:35:39 UTC] PHP Stack trace:
+[20-Oct-2017 03:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:35:39 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:112
+[20-Oct-2017 03:35:50 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:35:50 UTC] PHP Stack trace:
+[20-Oct-2017 03:35:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:35:50 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:112
+[20-Oct-2017 03:36:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:36:09 UTC] PHP Stack trace:
+[20-Oct-2017 03:36:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:36:09 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:112
+[20-Oct-2017 03:38:06 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php on line 69
+[20-Oct-2017 03:38:06 UTC] PHP Stack trace:
+[20-Oct-2017 03:38:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:0
+[20-Oct-2017 03:38:06 UTC] PHP   2. leastPopulated() /home/ubuntu/workspace/cst336/practice_midterm/practice_program2.php:113
+[20-Oct-2017 17:08:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 130
+[20-Oct-2017 17:08:19 UTC] PHP Stack trace:
+[20-Oct-2017 17:08:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 17:29:49 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 44
+[20-Oct-2017 17:29:49 UTC] PHP Stack trace:
+[20-Oct-2017 17:29:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 17:29:49 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:129
+[20-Oct-2017 17:29:49 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:44
+[20-Oct-2017 17:29:49 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 45
+[20-Oct-2017 17:29:49 UTC] PHP Stack trace:
+[20-Oct-2017 17:29:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 17:29:49 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:129
+[20-Oct-2017 17:29:49 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:45
+[20-Oct-2017 17:31:48 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 77
+[20-Oct-2017 17:31:48 UTC] PHP Stack trace:
+[20-Oct-2017 17:31:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 17:31:48 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:130
+[20-Oct-2017 17:31:48 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:77
+[20-Oct-2017 17:32:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 77
+[20-Oct-2017 17:32:18 UTC] PHP Stack trace:
+[20-Oct-2017 17:32:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 17:32:18 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:130
+[20-Oct-2017 17:32:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:77
+[20-Oct-2017 17:38:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 77
+[20-Oct-2017 17:38:10 UTC] PHP Stack trace:
+[20-Oct-2017 17:38:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 17:38:10 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:131
+[20-Oct-2017 17:38:10 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:77
+[20-Oct-2017 17:47:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 80
+[20-Oct-2017 18:08:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:08:44 UTC] PHP Stack trace:
+[20-Oct-2017 18:08:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:08:44 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:08:44 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:08:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:08:54 UTC] PHP Stack trace:
+[20-Oct-2017 18:08:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:08:54 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:08:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:08:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:08:55 UTC] PHP Stack trace:
+[20-Oct-2017 18:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:08:55 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:08:55 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:08:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:08:58 UTC] PHP Stack trace:
+[20-Oct-2017 18:08:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:08:58 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:08:58 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:09:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:09:00 UTC] PHP Stack trace:
+[20-Oct-2017 18:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:09:00 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:09:00 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:09:11 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:09:11 UTC] PHP Stack trace:
+[20-Oct-2017 18:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:09:11 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:09:11 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:09:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:09:29 UTC] PHP Stack trace:
+[20-Oct-2017 18:09:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:09:29 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:09:29 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:09:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:09:43 UTC] PHP Stack trace:
+[20-Oct-2017 18:09:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:09:43 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:09:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:09:49 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:09:49 UTC] PHP Stack trace:
+[20-Oct-2017 18:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:09:49 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:09:49 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:14:14 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:14:14 UTC] PHP Stack trace:
+[20-Oct-2017 18:14:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:14:14 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:14:14 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[20-Oct-2017 18:14:30 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php on line 78
+[20-Oct-2017 18:14:30 UTC] PHP Stack trace:
+[20-Oct-2017 18:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
+[20-Oct-2017 18:14:30 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
+[20-Oct-2017 18:14:30 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
