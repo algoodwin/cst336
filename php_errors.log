@@ -253,3 +253,21 @@ Stack trace:
 [20-Oct-2017 18:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:0
 [20-Oct-2017 18:14:30 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:133
 [20-Oct-2017 18:14:30 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/practice_midterm/practice_program1.php:78
+[08-Nov-2017 20:09:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.time' doesn't exist' in /home/ubuntu/workspace/cst336/group-project2/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/group-project2/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/group-project2/index.php(100): getOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/group-project2/index.php on line 19
+[08-Nov-2017 20:09:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.time' doesn't exist' in /home/ubuntu/workspace/cst336/group-project2/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/group-project2/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/group-project2/index.php(100): getOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/group-project2/index.php on line 19
+[08-Nov-2017 20:09:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.time' doesn't exist' in /home/ubuntu/workspace/cst336/group-project2/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/group-project2/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/group-project2/index.php(100): getOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/group-project2/index.php on line 19
