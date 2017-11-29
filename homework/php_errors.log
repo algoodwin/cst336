@@ -60,3 +60,274 @@
 [11-Oct-2017 07:47:44 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/cst336/homework/homework3/recipe.php on line 28
 [11-Oct-2017 07:52:09 UTC] PHP Parse error:  syntax error, unexpected ''" frameborder="0" allowfullsc' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/homework3/recipe.php on line 12
 [11-Oct-2017 13:56:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/homework3/recipe.php on line 15
+[28-Nov-2017 18:43:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/homework/homework5/index.php on line 100
+[28-Nov-2017 18:51:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/homework/homework5/index.php on line 30
+[28-Nov-2017 18:51:40 UTC] PHP Stack trace:
+[28-Nov-2017 18:51:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework5/index.php:0
+[28-Nov-2017 18:51:40 UTC] PHP   2. check() /home/ubuntu/workspace/cst336/homework/homework5/index.php:54
+[29-Nov-2017 03:01:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'searchItem' cannot be null' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(30): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 30
+[29-Nov-2017 03:11:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE walmartApi SET amountSearched + 1 WHERE searchItem = ‘' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 29
+[29-Nov-2017 03:17:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE walmartApi SET amountSearched = amountSearched+1 WHERE searchItem = ''' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 29
+[29-Nov-2017 03:19:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE MAIN SET amountSearched = amountSearched+1 WHERE searchItem = (select * f' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 29
+[29-Nov-2017 03:19:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE MAIN SET amountSearched = amountSearched+1 WHERE searchItem = (select * f' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 29
+[29-Nov-2017 03:19:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE MAIN SET amountSearched = amountSearched+1 WHERE searchItem = ''' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 29
+[29-Nov-2017 03:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE MAIN SET amountSearched = amountSearched+1 WHERE searchItem = ''' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 29
+[29-Nov-2017 03:24:04 UTC] PHP Parse error:  syntax error, unexpected 'EXISTS' (T_STRING), expecting '(' in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 31
+[29-Nov-2017 03:24:06 UTC] PHP Parse error:  syntax error, unexpected 'EXISTS' (T_STRING), expecting '(' in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 31
+[29-Nov-2017 03:27:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 36
+[29-Nov-2017 03:37:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'test' in 'field list'' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 30
+[29-Nov-2017 03:38:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'test' in 'field list'' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 20
+[29-Nov-2017 03:39:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'test' in 'field list'' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 03:44:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE walmartApi SET amountSearched +1 WHERE searchItem = ‘' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 03:44:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE walmartApi SET amountSearched +1 WHERE searchItem = ‘' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 03:45:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+1 WHERE searchItem = ‘
+            INSERT IGNORE INTO walmartApi
+        ' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 17
+[29-Nov-2017 03:46:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+1 WHERE searchItem = ‘' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 22
+[29-Nov-2017 03:48:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+1 WHERE searchItem = ‘' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 22
+[29-Nov-2017 03:48:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+1 WHERE searchItem = ‘' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(22): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 22
+[29-Nov-2017 03:57:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 17
+[29-Nov-2017 04:03:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 04:05:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 04:17:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 04:17:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 04:25:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 04:27:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 04:29:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 05:33:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 05:33:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY searchItem' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 16
+[29-Nov-2017 05:36:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY ''' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(23): PDO->query('SELECT searchit...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 23
+[29-Nov-2017 05:36:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY ''' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(23): PDO->query('SELECT searchit...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 23
+[29-Nov-2017 05:36:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY ''' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(23): PDO->query('SELECT searchit...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 23
+[29-Nov-2017 05:37:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY ''' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(23): PDO->query('SELECT searchit...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 23
+[29-Nov-2017 05:38:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY ('')' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(23): PDO->query('SELECT searchit...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 23
+[29-Nov-2017 05:38:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(23): PDO->query('SELECT searchit...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 23
+[29-Nov-2017 05:41:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY 'car'' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 25
+[29-Nov-2017 05:41:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY 'ca'' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 25
+[29-Nov-2017 05:42:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY 'fe'' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 25
+[29-Nov-2017 05:43:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY searchitem' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 25
+[29-Nov-2017 05:43:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY searchItem' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 25
+[29-Nov-2017 05:43:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY searchItem' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 25
+[29-Nov-2017 05:44:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi	GROUP BY searchItem' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:45:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT 'o', SUM(amountSearched),
+    		FROM walmartApi	GROUP BY searchItem' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:47:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT 'k', SUM(amountSearched)total,
+    		FROM walmartApi	GROUP BY searchItem' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:48:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT 'l', SUM(amountSearched)total,
+    		FROM walmartApi	GROUP BY searchItem' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:50:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT searchItem, SUM(amountSearched)total,
+    		FROM walmartApi WHERE searchI' at line 1' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:50:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi WHERE searchItem ='h' GROUP BY searchItem' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:51:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi WHERE searchItem =i GROUP BY searchItem' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:51:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi WHERE searchItem =b' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 05:51:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi WHERE searchItem =box' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 06:54:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM walmartApi WHERE searchItem =box' at line 2' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 06:55:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 35
+[29-Nov-2017 07:13:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 54
+[29-Nov-2017 07:16:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 55
+[29-Nov-2017 07:31:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') SET time = now()' at line 4' in /home/ubuntu/workspace/cst336/homework/homework5/data.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework5/data.php(24): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework5/data.php on line 24
+[29-Nov-2017 08:02:07 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/cst336/homework/homework5/timestamps.php on line 25

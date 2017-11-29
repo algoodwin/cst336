@@ -1,0 +1,132 @@
+
+
+<head>
+    
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+ <style>
+            @import url("styles.css");
+            
+        </style>
+<body id="dummybodyid">
+    <header>
+      <h1>Search an Item!</h1>
+    </header>
+
+      <form method="GET">
+				Item to Look up:  <input type="text" id="search" value="">
+				Two Day Shipping: </br>
+				Yes &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				No<input type="range" id="priceRange" min="0" value="" max="1">
+            <input type='button' onclick='getData()'value ="submit">
+				<br><br>
+			</form>
+			
+       <?=printit()?>
+     
+      <div id="result"></div>
+      
+      <div id ="end"></div>
+      </br></br>
+      <h4>Search history</h4>
+      <?php
+          $dt = new DateTime();
+        echo date('Y-m-d H:i:s');
+      ?>
+       <div id ="stamps"></div>
+
+  <script> 
+		$("input").change(getData);
+		$("input").change(function(){insert(); });
+		$("input").change(function(){timeStamp(); });
+		
+
+
+  	
+  	function getData() { 
+//lab 6
+   
+    
+    var description = $("#priceRange").val();
+      $.ajax({
+            type: "get",
+             url: "http://api.walmartlabs.com/v1/search",
+        dataType: "json",
+            data: {
+                   
+                   "query":$("#search").val(),
+                   "format"  :"json",
+                   "apiKey" :"zuhytzzgv8mrqj3eggfp5nnv"
+               
+            },
+            success: function(data,status,check) {
+                
+            //	$('#result').html(data["metadata"].title + "<br>");
+         if(description ==0){
+                 for (var i=0; i < data['query'].length; i++ ) {
+                     
+                 	$('#result').empty().append("<b>Name:</b> "+ data['items'][i].name  + "</br><b>Price:</b> "+ data['items'][i].salePrice + "</br> Two Day Shipping aviliable?" + data['items'][i].isTwoDayShippingEligible + "</br>");
+                 }
+         }
+         else{
+               for (var i=0; i < data['query'].length; i++ ) {
+                     
+                 	$('#result').empty().append("<b>Name:</b> "+ data['items'][i].name  + "</br><b>Price:</b> "+data['items'][i].salePrice + "</br>");
+                 }
+         }
+         
+            $('#end').append("<b> Times you have searched  "+ $('#search').val()  + "</b></br>");
+
+         
+              },
+            complete: function(data,status) { //optional, used for debugging purposes
+                 //alert(status);
+            }
+         });
+    }
+    
+    function insert(){
+         $.ajax({
+            type: "GET",
+             url: "data.php?search=",
+        dataType: "",
+            data: { value : $("#search").val()
+               
+            },
+            success: function(value) {
+               // alert(value);
+
+                $('#end').empty().append(value);
+                 
+             },
+            complete: function(data,status) { //optional, used for debugging purposes
+                 //alert(status);
+            }
+         });
+    }
+  	
+    function timeStamp(){
+    
+         $.ajax({
+            type: "GET",
+             url: "timestamps.php",
+        dataType: "",
+            data: { value : $("#search").val()
+               
+            },
+            success: function(value) {
+               // alert(value);
+
+                $('#stamps').empty().append(value);
+                 
+             },
+            complete: function(data,status) { //optional, used for debugging purposes
+                 //alert(status);
+            }
+         });
+    }
+ 	</script>
+ </body>	
