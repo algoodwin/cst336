@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> </title>
+
+<?php
+    include 'inc/header.php';
+    ?>
+
+        <title>About Us </title>
     </head>
     <body>
+This is a website designed for practicing, not actually functional. 
 
-    </body>
-</html>
+
+<?php
+    include 'inc/footer.php';
+    ?>
+

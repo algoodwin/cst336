@@ -1,3 +1,8 @@
+body{
+     text-align: center;
+     background-color:green;
+}
+
 #priceRange{
      width: 400px;
   height: 17px;
