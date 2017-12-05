@@ -271,3 +271,4 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/group-project2/index.php(100): getOptions()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/group-project2/index.php on line 19
+[05-Dec-2017 17:44:14 UTC] PHP Parse error:  syntax error, unexpected '.', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst336/final_project/index.php on line 7
