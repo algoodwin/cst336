@@ -28,7 +28,7 @@ session_start();
        
          </div>     
          
-        <form method="POST" action ="loginProcess.php">
+        <form method="GET" action ="loginProcess.php">
             
             
             Username: <input type="text" name="username"/> <br /><br />
