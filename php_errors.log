@@ -272,3 +272,522 @@ Stack trace:
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/group-project2/index.php on line 19
 [05-Dec-2017 17:44:14 UTC] PHP Parse error:  syntax error, unexpected '.', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst336/final_project/index.php on line 7
+[05-Dec-2017 20:03:00 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final_project/dbConnection.php:4) in /home/ubuntu/workspace/dbConnection.php on line 4
+[05-Dec-2017 20:03:00 UTC] PHP Stack trace:
+[05-Dec-2017 20:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[05-Dec-2017 20:03:00 UTC] PHP   2. getColor() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:119
+[05-Dec-2017 20:22:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/index.php on line 98
+[05-Dec-2017 20:22:08 UTC] PHP Stack trace:
+[05-Dec-2017 20:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:22:08 UTC] PHP   2. getColors() /home/ubuntu/workspace/cst336/final_project/index.php:36
+[05-Dec-2017 20:22:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/index.php on line 98
+[05-Dec-2017 20:22:27 UTC] PHP Stack trace:
+[05-Dec-2017 20:22:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:22:27 UTC] PHP   2. getColors() /home/ubuntu/workspace/cst336/final_project/index.php:36
+[05-Dec-2017 20:22:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/index.php on line 98
+[05-Dec-2017 20:22:45 UTC] PHP Stack trace:
+[05-Dec-2017 20:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:22:45 UTC] PHP   2. getColors() /home/ubuntu/workspace/cst336/final_project/index.php:36
+[05-Dec-2017 20:22:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/index.php on line 97
+[05-Dec-2017 20:22:51 UTC] PHP Stack trace:
+[05-Dec-2017 20:22:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:22:51 UTC] PHP   2. getColors() /home/ubuntu/workspace/cst336/final_project/index.php:36
+[05-Dec-2017 20:23:09 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final_project/dbConnection.php:4) in /home/ubuntu/workspace/cst336/final_project/dbConnection.php on line 4
+[05-Dec-2017 20:23:09 UTC] PHP Stack trace:
+[05-Dec-2017 20:23:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:23:09 UTC] PHP   2. getThemes() /home/ubuntu/workspace/cst336/final_project/index.php:53
+[05-Dec-2017 20:23:28 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final_project/dbConnection.php:4) in /home/ubuntu/workspace/cst336/final_project/dbConnection.php on line 4
+[05-Dec-2017 20:23:28 UTC] PHP Stack trace:
+[05-Dec-2017 20:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:23:28 UTC] PHP   2. getThemes() /home/ubuntu/workspace/cst336/final_project/index.php:53
+[05-Dec-2017 20:25:08 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final_project/dbConnection.php:4) in /home/ubuntu/workspace/cst336/final_project/dbConnection.php on line 4
+[05-Dec-2017 20:25:08 UTC] PHP Stack trace:
+[05-Dec-2017 20:25:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:25:08 UTC] PHP   2. getThemes() /home/ubuntu/workspace/cst336/final_project/index.php:53
+[05-Dec-2017 20:25:17 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final_project/dbConnection.php:4) in /home/ubuntu/workspace/cst336/final_project/dbConnection.php on line 4
+[05-Dec-2017 20:25:17 UTC] PHP Stack trace:
+[05-Dec-2017 20:25:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:25:17 UTC] PHP   2. getThemes() /home/ubuntu/workspace/cst336/final_project/index.php:53
+[05-Dec-2017 20:25:39 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final_project/dbConnection.php:4) in /home/ubuntu/workspace/cst336/final_project/dbConnection.php on line 4
+[05-Dec-2017 20:25:39 UTC] PHP Stack trace:
+[05-Dec-2017 20:25:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:25:39 UTC] PHP   2. getThemes() /home/ubuntu/workspace/cst336/final_project/index.php:53
+[05-Dec-2017 20:26:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/index.php on line 96
+[05-Dec-2017 20:26:57 UTC] PHP Stack trace:
+[05-Dec-2017 20:26:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[05-Dec-2017 20:26:57 UTC] PHP   2. getColors() /home/ubuntu/workspace/cst336/final_project/index.php:36
+[05-Dec-2017 20:27:06 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/cst336/final_project/index.php on line 92
+[06-Dec-2017 17:20:24 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 16
+[06-Dec-2017 17:20:24 UTC] PHP Stack trace:
+[06-Dec-2017 17:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:11:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:30:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 22
+[06-Dec-2017 18:30:50 UTC] PHP Stack trace:
+[06-Dec-2017 18:30:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:30:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 22
+[06-Dec-2017 18:30:51 UTC] PHP Stack trace:
+[06-Dec-2017 18:30:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:45:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''og_colors' WHERE id = ''' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:45:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''og_colors' WHERE id = ''' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:45:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''og_colors' WHERE id = ''' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:46:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''og_colors' WHERE id = '2'' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:47:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''og_colors' WHERE id = 2' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:47:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''og_colors' WHERE id = '2' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 18
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'hex' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'hex' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'hex' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'hex' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'hex' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:55:49 UTC] PHP Warning:  Illegal string offset 'hex' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[06-Dec-2017 18:55:49 UTC] PHP Stack trace:
+[06-Dec-2017 18:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[06-Dec-2017 18:59:47 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 23
+[06-Dec-2017 20:18:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/cst336/final_project/submitThemes.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitThemes.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitThemes.php on line 18
+[06-Dec-2017 20:18:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'' in /home/ubuntu/workspace/cst336/final_project/submitThemes.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitThemes.php(18): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitThemes.php on line 18
+[06-Dec-2017 20:29:26 UTC] PHP Fatal error:  Call to undefined function name1() in /home/ubuntu/workspace/cst336/final_project/submitThemes.php on line 41
+[06-Dec-2017 20:29:26 UTC] PHP Stack trace:
+[06-Dec-2017 20:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitThemes.php:0
+[06-Dec-2017 20:36:54 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/cst336/final_project/submitThemes.php on line 33
+[06-Dec-2017 20:36:54 UTC] PHP Stack trace:
+[06-Dec-2017 20:36:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitThemes.php:0
+[06-Dec-2017 20:42:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/submitThemes.php on line 33
+[06-Dec-2017 20:42:20 UTC] PHP Stack trace:
+[06-Dec-2017 20:42:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitThemes.php:0
+[06-Dec-2017 20:42:20 UTC] PHP   2. name1() /home/ubuntu/workspace/cst336/final_project/submitThemes.php:39
+[06-Dec-2017 20:43:47 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/cst336/final_project/submitThemes.php on line 34
+[06-Dec-2017 20:43:47 UTC] PHP Stack trace:
+[06-Dec-2017 20:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitThemes.php:0
+[06-Dec-2017 21:13:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/adminPortal.php(49): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 49
+[06-Dec-2017 21:14:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 46
+[06-Dec-2017 21:14:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 49
+[06-Dec-2017 21:14:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 49
+[06-Dec-2017 21:28:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[06-Dec-2017 21:28:47 UTC] PHP Stack trace:
+[06-Dec-2017 21:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[06-Dec-2017 21:28:47 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[06-Dec-2017 21:29:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[06-Dec-2017 21:29:05 UTC] PHP Stack trace:
+[06-Dec-2017 21:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[06-Dec-2017 21:29:05 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[06-Dec-2017 21:29:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[06-Dec-2017 21:29:09 UTC] PHP Stack trace:
+[06-Dec-2017 21:29:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[06-Dec-2017 21:29:09 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[06-Dec-2017 21:34:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[06-Dec-2017 21:34:07 UTC] PHP Stack trace:
+[06-Dec-2017 21:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[06-Dec-2017 21:34:07 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[06-Dec-2017 22:05:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[06-Dec-2017 22:05:50 UTC] PHP Stack trace:
+[06-Dec-2017 22:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[06-Dec-2017 22:05:50 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[07-Dec-2017 03:51:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry ':hex' for key 'hex'' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php:55
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/adminPortal.php(55): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 55
+[07-Dec-2017 04:13:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 46
+[07-Dec-2017 04:13:46 UTC] PHP Stack trace:
+[07-Dec-2017 04:13:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:13:46 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:46
+[07-Dec-2017 04:13:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 47
+[07-Dec-2017 04:13:46 UTC] PHP Stack trace:
+[07-Dec-2017 04:13:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:13:46 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:47
+[07-Dec-2017 04:15:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 46
+[07-Dec-2017 04:15:15 UTC] PHP Stack trace:
+[07-Dec-2017 04:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:15:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:46
+[07-Dec-2017 04:15:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 47
+[07-Dec-2017 04:15:15 UTC] PHP Stack trace:
+[07-Dec-2017 04:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:15:15 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:47
+[07-Dec-2017 04:15:18 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 46
+[07-Dec-2017 04:15:18 UTC] PHP Stack trace:
+[07-Dec-2017 04:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:15:18 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:46
+[07-Dec-2017 04:15:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 47
+[07-Dec-2017 04:15:18 UTC] PHP Stack trace:
+[07-Dec-2017 04:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:15:18 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:47
+[07-Dec-2017 04:15:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 46
+[07-Dec-2017 04:15:44 UTC] PHP Stack trace:
+[07-Dec-2017 04:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:15:44 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:46
+[07-Dec-2017 04:15:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 47
+[07-Dec-2017 04:15:44 UTC] PHP Stack trace:
+[07-Dec-2017 04:15:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:15:44 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:47
+[07-Dec-2017 04:32:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 47
+[07-Dec-2017 04:32:17 UTC] PHP Stack trace:
+[07-Dec-2017 04:32:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:32:17 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:47
+[07-Dec-2017 04:37:52 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:37:52 UTC] PHP Stack trace:
+[07-Dec-2017 04:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:37:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 04:37:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 49
+[07-Dec-2017 04:37:52 UTC] PHP Stack trace:
+[07-Dec-2017 04:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:37:52 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:49
+[07-Dec-2017 04:40:17 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:40:17 UTC] PHP Stack trace:
+[07-Dec-2017 04:40:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:40:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 04:40:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 49
+[07-Dec-2017 04:40:17 UTC] PHP Stack trace:
+[07-Dec-2017 04:40:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:40:17 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:49
+[07-Dec-2017 04:41:48 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:41:48 UTC] PHP Stack trace:
+[07-Dec-2017 04:41:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:41:48 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 04:41:48 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:41:48 UTC] PHP Stack trace:
+[07-Dec-2017 04:41:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:41:48 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 04:41:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 49
+[07-Dec-2017 04:41:48 UTC] PHP Stack trace:
+[07-Dec-2017 04:41:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:41:48 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:49
+[07-Dec-2017 04:42:49 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:42:49 UTC] PHP Stack trace:
+[07-Dec-2017 04:42:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:42:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 04:43:43 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:43:43 UTC] PHP Stack trace:
+[07-Dec-2017 04:43:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:43:57 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:43:57 UTC] PHP Stack trace:
+[07-Dec-2017 04:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:44:09 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:44:09 UTC] PHP Stack trace:
+[07-Dec-2017 04:44:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:45:12 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:45:12 UTC] PHP Stack trace:
+[07-Dec-2017 04:45:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:45:30 UTC] PHP Fatal error:  Call to undefined function fetch() in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:45:30 UTC] PHP Stack trace:
+[07-Dec-2017 04:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:48:40 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:48:40 UTC] PHP Stack trace:
+[07-Dec-2017 04:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:48:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 04:48:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 04:48:40 UTC] PHP Stack trace:
+[07-Dec-2017 04:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 04:48:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 05:05:34 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 05:05:34 UTC] PHP Stack trace:
+[07-Dec-2017 05:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 05:05:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 05:05:34 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 48
+[07-Dec-2017 05:05:34 UTC] PHP Stack trace:
+[07-Dec-2017 05:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[07-Dec-2017 05:05:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:48
+[07-Dec-2017 05:09:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[07-Dec-2017 05:09:01 UTC] PHP Stack trace:
+[07-Dec-2017 05:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[07-Dec-2017 05:09:01 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[07-Dec-2017 05:09:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[07-Dec-2017 05:09:37 UTC] PHP Stack trace:
+[07-Dec-2017 05:09:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[07-Dec-2017 05:09:37 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[07-Dec-2017 05:10:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[07-Dec-2017 05:10:00 UTC] PHP Stack trace:
+[07-Dec-2017 05:10:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[07-Dec-2017 05:10:00 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[07-Dec-2017 05:14:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/adminPortal.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 51
+[07-Dec-2017 05:16:10 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 54
+[07-Dec-2017 05:16:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE NOT EXISTS (SELECT * FROM specific_colors WHERE hex = )' at line 1' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/adminPortal.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 51
+[07-Dec-2017 05:17:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE NOT EXISTS (SELECT * FROM specific_colors WHERE hex = )' at line 1' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/adminPortal.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 51
+[07-Dec-2017 05:19:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNIQUE INTO `specific_colors` (`name`, `hex`, `id`) VALUES (':name', ':hex', ':i' at line 1' in /home/ubuntu/workspace/cst336/final_project/adminPortal.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/adminPortal.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 51
+[07-Dec-2017 16:06:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 8
+[07-Dec-2017 16:06:52 UTC] PHP Stack trace:
+[07-Dec-2017 16:06:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[07-Dec-2017 16:06:52 UTC] PHP   2. getColorInfo() /home/ubuntu/workspace/cst336/final_project/updateColor.php:37
+[07-Dec-2017 16:08:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admiral' in 'where clause'' in /home/ubuntu/workspace/cst336/final_project/updateColor.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateColor.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/updateColor.php(38): getColorInfo('Admiral')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 10
+[07-Dec-2017 16:08:26 UTC] PHP Fatal error:  Call to undefined function getColorNames() in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 72
+[07-Dec-2017 16:08:26 UTC] PHP Stack trace:
+[07-Dec-2017 16:08:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateColor.php:0
+[07-Dec-2017 16:20:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '091a91' for key 'hex'' in /home/ubuntu/workspace/cst336/final_project/updateColor.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateColor.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateColor.php on line 32
+[07-Dec-2017 17:11:59 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 22
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:38 UTC] PHP Warning:  imagerectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:38 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:38 UTC] PHP   2. imagerectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:22:59 UTC] PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:22:59 UTC] PHP Stack trace:
+[07-Dec-2017 17:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/submitForm.php:0
+[07-Dec-2017 17:22:59 UTC] PHP   2. imagefilledrectangle() /home/ubuntu/workspace/cst336/final_project/submitForm.php:25
+[07-Dec-2017 17:24:18 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 24
+[07-Dec-2017 17:25:07 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 24
+[07-Dec-2017 17:25:42 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 24
+[07-Dec-2017 17:26:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 24
+[07-Dec-2017 17:26:27 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 24
+[07-Dec-2017 17:26:53 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 24
+[07-Dec-2017 17:29:26 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[07-Dec-2017 17:29:51 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[07-Dec-2017 17:30:22 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:30:23 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 25
+[07-Dec-2017 17:30:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[07-Dec-2017 18:33:21 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 26
+[07-Dec-2017 18:33:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final_project/submitForm.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/submitForm.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/submitForm.php on line 23
+[07-Dec-2017 20:05:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 10
+[08-Dec-2017 02:49:54 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 108
+[08-Dec-2017 02:49:59 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 108
+[08-Dec-2017 02:55:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 9
+[08-Dec-2017 03:12:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 9
+[08-Dec-2017 03:12:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 9
+[08-Dec-2017 03:13:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.specific_color' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 9
+[08-Dec-2017 03:14:40 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 7
+[08-Dec-2017 03:14:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.specific_color' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 10
+[08-Dec-2017 03:15:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '0d176f' in 'where clause'' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 10
+[08-Dec-2017 03:17:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Navy' in 'where clause'' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 10
+[08-Dec-2017 03:20:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Navy' in 'where clause'' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 10
+[08-Dec-2017 03:24:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1' in /home/ubuntu/workspace/cst336/final_project/deleteColor.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/deleteColor.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/deleteColor.php on line 9
+[08-Dec-2017 03:33:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/cst336/final_project/adminPortal.php:197) in /home/ubuntu/workspace/cst336/final_project/adminPortal.php on line 220
+[08-Dec-2017 03:33:21 UTC] PHP Stack trace:
+[08-Dec-2017 03:33:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
+[08-Dec-2017 03:33:21 UTC] PHP   2. header() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:220

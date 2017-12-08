@@ -28,7 +28,7 @@
           </div>
         </nav>
          <div class="jumbotron">
-             <h1> Colors!</h1>
+             <h1> Color Themes!</h1>
              <h3> Ever struggled to know what colors would look great together? What a real color name is?
                  Don't worry this site can help you!</h3>
          </div>     
@@ -36,31 +36,29 @@
          
          <form method ="GET" action ="submitForm.php">
              <legend> Select What Want to know!</legend>
-               Colors Basic Name <select id="original_colors" name="color" required>
+
+           
+             Choose Theme <select id="themes" name="theme">
                    <option value="">Select One</option>
                 <?php
                             
-                                $records = getColors();
+                                $records = getThemes();
                                 foreach ($records as $record) {
                                        
-                                       echo  "<option value='$record[id]'> $record[og_name] </option>";
+                                       echo  "<option value='$record[theme]'> $record[theme] </option>";
                                    }
                             
                 ?>
-
-                
-                            
+            
 
             </select><br />
-           
-          
              
             <input type='button' onclick='getData()'value ="submit">
              
          </form>
          </br></br></br>
        
-       <div id="color_return"></div>
+       <div id="theme_return"></div>
        
 
         
@@ -84,14 +82,14 @@ function getData() {
 
       $.ajax({
             type: "get",
-             url: "submitForm.php",
+             url: "submitThemes.php",
         dataType: "html",
-            data: { colorname:  $("#original_colors").val()},
+            data: { themeName:  $("#themes").val()},
             success: function(response) {
                 
                 
                 
-                 $('#color_return').empty().append(response);
+                 $('#theme_return').empty().append(response);
                  
                  
             
@@ -114,20 +112,6 @@ function getData() {
 
 <?php
 
-function getColors(){
-       
-
-        global $conn;
-        $sql = "SELECT * FROM `og_colors`";
-
-            
-    $stmt = $conn->prepare($sql);
-    $stmt->execute();
-    $records = $stmt->fetchAll();
-    
-    return $records;
-    
-}
 
 function getThemes(){
       global $conn;

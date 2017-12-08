@@ -1,0 +1,24 @@
+body{
+    text-align: center !important;
+    background-color: #faeee1 !important;
+}
+#colorBlocks{
+    text-align:center !important;
+}
+
+#rect{
+    text-align:center !important;
+    
+}
+.jumbotron{
+    background-color: transparent !important;
+    color: black;
+}
+
+#color_return,#theme_return{
+    color:white;
+    text-shadow:2px 2px 4px #000000;
+    text-align: center !important;
+
+   
+}
