@@ -2,12 +2,12 @@
 session_start();
 //print_r ($_POST);
 
-include 'dbConnection.php';
+include '../../dbConnection.php';
 $conn = getDatabaseConnection('final_project');
 //print_r($conn); //check if connected, if its says PDO opject gucci
 
-$username = $_GET['username'];
-$password = ($_GET['password']);
+$username = $_POST['username'];
+$password = ($_POST['password']);
 //allows SQL Injection
 //$sql = "SELECT * FROM tc_admin
 //        WHERE username='$username'
