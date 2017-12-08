@@ -2,7 +2,7 @@
 session_start();
 //print_r ($_POST);
 
-include '../../dbConnection.php';
+include 'dbConnection.php';
 $conn = getDatabaseConnection('final_project');
 //print_r($conn); //check if connected, if its says PDO opject gucci
 
