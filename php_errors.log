@@ -791,3 +791,14 @@ Stack trace:
 [08-Dec-2017 03:33:21 UTC] PHP Stack trace:
 [08-Dec-2017 03:33:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:0
 [08-Dec-2017 03:33:21 UTC] PHP   2. header() /home/ubuntu/workspace/cst336/final_project/adminPortal.php:220
+[08-Dec-2017 16:19:00 UTC] PHP Fatal error:  Call to undefined function array_size() in /home/ubuntu/workspace/cst336/practice/practice.php on line 12
+[08-Dec-2017 16:19:00 UTC] PHP Stack trace:
+[08-Dec-2017 16:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/practice.php:0
+[08-Dec-2017 16:19:10 UTC] PHP Fatal error:  Call to undefined function size_array() in /home/ubuntu/workspace/cst336/practice/practice.php on line 12
+[08-Dec-2017 16:19:10 UTC] PHP Stack trace:
+[08-Dec-2017 16:19:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/practice.php:0
+[08-Dec-2017 19:16:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'teamProject.colors_admin' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/loginProcess.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/loginProcess.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/loginProcess.php on line 26
