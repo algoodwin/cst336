@@ -1,6 +1,6 @@
 <?php
 
-    include '../../../dbConnection.php';
+    include 'dbConnection.php';
     $dbConn = getDatabaseConnection("final_project");    
     $sql = "SELECT * FROM specific_colors INNER JOIN og_colors ON specific_colors.id=og_colors.id";
     $stmt = $dbConn -> prepare($sql);

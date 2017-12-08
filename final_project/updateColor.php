@@ -6,7 +6,7 @@ if (!isset($_SESSION['username'])) { //validates that admin has indeed logged in
     header("Location: admin.php");
     
 }
- include '../../dbConnection.php';
+ include 'dbConnection.php';
 $conn = getDatabaseConnection("final_project");
 function getColorInfo($colorName) {
     global $conn;    
